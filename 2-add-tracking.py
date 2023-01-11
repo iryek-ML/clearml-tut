@@ -31,3 +31,5 @@ model.evaluate(x_test, y_test)
 
 # Save Model
 # tf.saved_model.save(model, export_dir="model/mnist")
+
+task.close()
